@@ -7,17 +7,18 @@ environment:
   sdk: ">=3.2.4 <4.0.0"
 
 dependencies:
+  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
-  sqflite: ^2.3.0
-  intl: ^0.18.1
   flutter_login: ^5.0.0
+  get: ^4.6.6
+  intl: ^0.18.1
+  sqflite: ^2.3.0
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1"
 
 flutter_launcher_icons:
   android: "launcher_icon"
